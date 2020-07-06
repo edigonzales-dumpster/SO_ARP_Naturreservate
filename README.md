@@ -65,9 +65,9 @@ Nochmals importieren (mit `--disableValidation` aber ohne `--sqlEnableNull`):
 
 ```
 java -jar /Users/stefan/apps/ili2pg-4.3.1/ili2pg-4.3.1.jar  --dbhost localhost --dbdatabase grundstuecksinformation --dbport 54321 --dbusr admin --dbpwd admin \
---dbschema arp_naturreservate_v2 --models SO_ARP_Naturreservate_20200609 --modeldir 'http://models.geo.admin.ch/;http://geo.so.ch/models;' \
+--dbschema arp_naturreservate_v3 --models SO_ARP_Naturreservate_20200609 --modeldir 'http://models.geo.admin.ch/;http://geo.so.ch/models;' \
 --defaultSrsCode 2056 --strokeArcs --createGeomIdx --createFk --createFkIdx --createEnumTabs --beautifyEnumDispName --createMetaInfo --createUnique --createNumChecks --nameByTopic \
 --createTidCol \
---disableValidation --sqlEnableNull --doSchemaImport --import arp_naturreservate_20200630_uuid_modellnamen.xtf
+--disableValidation --sqlEnableNull --doSchemaImport --import arp_naturreservate_20200630_uuid_definitiv.xtf
 ```
 
